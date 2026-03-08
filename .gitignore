@@ -1,0 +1,31 @@
+# .gitignore
+
+# Python / Backend
+__pycache__/
+*.pyc
+.env
+venv/
+env/
+
+# Node / Frontend
+node_modules/
+dist/
+build/
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Project specific zip files
+backend.zip
+frontend.zip
